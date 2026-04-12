@@ -89,13 +89,7 @@ function page() {
               duration={1.2}
               delay={0.6}
             />
-            <AboutCard
-              path="/images/members/MohammedAbout.webp"
-              name="Mohammed Al Barashdi"
-              designation="Chief Operating Officer"
-              duration={1.4}
-              delay={0.8}
-            />
+           
           </div>
         </div>
       </div>
