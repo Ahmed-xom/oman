@@ -57,15 +57,7 @@ export default function Home() {
               />
 
               {/* Service Block 2 */}
-              <Card
-                title={"XWM"}
-                subHeading={"XOM Well Maintenance"}
-                list1={"Well Head Maintenance"}
-                list2={"Slickline"}
-                list3={"NCP"}
-                y={100}
-                path="/cardimage-2.jpg"
-              />
+             
             </div>
           </div>
         </div>
