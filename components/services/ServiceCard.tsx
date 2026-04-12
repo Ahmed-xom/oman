@@ -14,12 +14,7 @@ function ServiceCard() {
     setDetails(servicesData.XOM_Drilling_Systems_LLC[0]);
     setActiveService("drilling");
   };
-  const handleMaintenanceClick = () => {
-    const wellMaintanence = servicesData.XOM_Well_Maintenance_LLC;
-    setDrilling(wellMaintanence);
-    setDetails(wellMaintanence[0]);
-    setActiveService("maintenance");
-  };
+
 
   const handleCard = (id: string) => {
     const filterData = drilling?.find((item) => item.id === id);
@@ -47,20 +42,7 @@ function ServiceCard() {
                 XOM Drilling Systems LLC
               </h2>
             </div>
-            <div
-              className={`service-title-box !mb-0 p-2 lg:p-4 rounded-xl ${
-                activeService === "maintenance" && "bg-white"
-              }`}
-            >
-              <h2
-                className={` ${
-                  activeService === "maintenance" && "!text-black"
-                } text-white`}
-                onClick={handleMaintenanceClick}
-              >
-                XOM Well Maintenance LLC
-              </h2>
-            </div>
+          
           </div>
         </div>
 
