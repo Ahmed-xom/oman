@@ -47,7 +47,7 @@ export default function Home() {
             <div className="row">
               {/* Service Block 1 */}
               <Card
-                title={"XDS"}
+                title={"XOM"}
                 subHeading={"XOM Drilling Systems"}
                 list1={"Directional Drilling"}
                 list2={"LWD"}
@@ -85,8 +85,8 @@ export default function Home() {
         <div className="auto-container">
           <div className="row clearfix gap-y-4">
             <h5 className="font-semibold text-black">
-              XOM and its subsidiaries employ over 200 employees and consultants
-              working in XOM 3 main locations:{" "}
+              XOM and its subsidiaries employ over 50 employees and consultants
+              working in XOM 2 main locations:{" "}
             </h5>
 
             <ul className="text-start space-y-3 text-white leading-relaxed">
@@ -98,10 +98,7 @@ export default function Home() {
                 <p className="w-2 h-2 bg-[#fb8f44] rounded-full"></p>
                 <p className="text-xl text-black">Workshop: Nizwa</p>
               </li>
-              <li className="flex items-center space-x-2">
-                <p className="w-2 h-2 bg-[#fb8f44] rounded-full"></p>
-                <p className="text-xl text-black">Base Camp: Saih Rawl</p>
-              </li>
+          
             </ul>
 
             <div className="flex justify-center items-center">
