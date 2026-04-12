@@ -7,7 +7,7 @@ export interface Service {
   
   export interface CompanyServices {
     XOM_Drilling_Systems_LLC: Service[];
-    XOM_Well_Maintenance_LLC: Service[];
+   
   }
 
 
